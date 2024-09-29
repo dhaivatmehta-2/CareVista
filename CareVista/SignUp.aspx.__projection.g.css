@@ -1,0 +1,48 @@
+
+/* BEGIN EXTERNAL SOURCE */
+
+        /* Basic CSS styling for the navbar */
+        body {
+            font-family: Arial;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: #05527c;
+            overflow: hidden;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        div{
+            font-family: Arial; 
+        }
+        .auto-style1 {
+            display: block;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #495057;
+            background-clip: padding-box;
+            border-radius: .25rem;
+            transition: none;
+            border: 1px solid #ced4da;
+            background-color: #fff;
+        }
+    
+/* END EXTERNAL SOURCE */
+
+/* BEGIN EXTERNAL SOURCE */
+TextBox {
+height: 27px
+}
+/* END EXTERNAL SOURCE */

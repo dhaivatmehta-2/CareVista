@@ -1,0 +1,129 @@
+﻿.navbar {
+    background-color: #05527c;
+    overflow: hidden;
+    height: 60px;
+    display: flex;
+    justify-content: space-between; /* Change to space-between */
+    align-items: center;
+    padding: 0 20px; /* Add padding */
+    position: fixed; /* Add position fixed */
+    top: 0; /* Add top 0 to fix it at the top */
+    left: 0; /* Add left 0 to start from the left edge */
+    width: 100%; /* Make it span the full width */
+    z-index:1000;
+}
+
+.logo {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 20px 14px 20px;
+    display: block;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+    .container h2 {
+        margin-top: 0;
+    }
+
+input[type="text"],
+input[type="password"],
+button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #45a049;
+    }
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.error-message {
+    color: red;
+}
+
+.containerh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+.element {
+    background-color: #e1f3f8;
+    color: #000000; /* Changed text color */
+    padding: 40px; /* Increased padding */
+    margin: 30px; /* Increased margin */
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border-radius: 10px; /* Rounded corners */
+    font-size: 25px; /* Increased font size */
+}
+
+
+    .element:hover {
+        transform: scale(1.1);
+    }
+
+
+.cart-button {
+    position: fixed;
+    top: 0;
+    right: 0;
+    transform: translateY(50%);
+    background-color: #05527c;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cart-button {
+    padding: 0;
+    margin: 0;
+}
+
+    .cart-button button {
+        color: white;
+        font-size: 24px;
+        border: none;
+        background: none;
+        transition: transform 0.3s ease;
+    }
+
+    .cart-button:hover {
+        background-color: #07cfa3;
+        transform: translateY(50%) scale(1.05);
+    }
+
+        .cart-button:hover button {
+            transform: scale(1.1);
+        }
